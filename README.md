@@ -3,12 +3,12 @@ Fasta Iterator
 A very simple python iterator for parsing fasta files
 
 
-**Installation**
-from within this directory, run
+**Installation**  
+from within this directory, run  
 ```pip install .```
 
 
-**Usage**
+**Usage**  
 ```from fasta_iterator import fasta_iterator
 with open("somefile.fasta", "r") as fasta:
     for record in fasta_iterator(fasta):
