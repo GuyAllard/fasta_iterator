@@ -4,9 +4,9 @@ A very simple python iterator for parsing fasta files
 
 
 **Installation**  
-from within this directory, run  
+To install with pip, run
 ```
-pip install .
+pip install https://github.com/guyallard/fasta_iterator/archive/v1.0.0.zip
 ```
 
 
