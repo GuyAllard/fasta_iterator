@@ -8,4 +8,15 @@ setup(name="fasta_iterator",
       url="https://github.com/GuyAllard/fasta_iterator",
       license="MIT",
       platforms=['any'],
-      packages=["fasta_iterator"])
+      packages=["fasta_iterator"],
+      classifiers = [
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Scientific/Engineering',
+        'License :: MIT License',
+      ],
+      keywords = 'bioinformatics'
+)
